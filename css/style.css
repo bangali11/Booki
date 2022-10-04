@@ -577,7 +577,7 @@ footer div{
     }
     .activite{
         padding: 0 30px;
-        margin-top: -15%;
+        margin-top: -17%;
     }
     .activite .containerActivite{
         grid-template-columns: repeat(1,1fr);
