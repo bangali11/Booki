@@ -62,7 +62,7 @@ main .card{
     box-shadow: 0 0 20px #0000002e;
 }
 /*formulaireDeRecherche*/
-.formulaireDeRecherche{
+#formulaireDeRecherche{
     display: flex;
     flex-direction: column;
     /*height: 200px;*/
@@ -70,28 +70,28 @@ main .card{
     gap: 10px;
     margin-top: 10px;
 }
-.formulaireDeRecherche .form{
+#formulaireDeRecherche #form{
     display: flex;
     align-items: center;
 }
-.formulaireDeRecherche .form .map{
+#formulaireDeRecherche #form #map{
     border-radius: 10px 0 0 10px;
     background-color: #F2F2F2;
     text-align: end;
     height: 100%;
     padding: 13px;
 }
-.formulaireDeRecherche .form input{
+#formulaireDeRecherche #form input{
     /*width: 75%;
     padding-left: 10px;*/
     padding: 10px;
 }
-.formulaireDeRecherche .form input::placeholder{
+#formulaireDeRecherche #form input::placeholder{
     font-weight: bold;
     color: black;
     opacity: 1;
 }
-.formulaireDeRecherche .form .rechercheFormBoutons{
+#formulaireDeRecherche #form #rechercheFormBoutons{
     display: flex;
     align-items: center;
     border-radius: 0 10px 10px 0;
@@ -101,24 +101,24 @@ main .card{
     padding: 10px;
     transition: all 100ms ease;
 }
-.formulaireDeRecherche .form .rechercheFormBoutons:hover{
+#formulaireDeRecherche #form #rechercheFormBoutons:hover{
     transform: scale(1.025);
 }
-.formulaireDeRecherche .form a i{
+#formulaireDeRecherche #form a i{
     display: none;
 }
-.formulaireDeRecherche .filtre{
+#formulaireDeRecherche #filtre{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
     gap: 5px 20px;
     margin-top: 10px;
 }
-.filtre h2{
+#filtre h2{
     display: flex;
     align-items: center;
 }
-.filtre .btnFiltre{
+#filtre .btnFiltre{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -131,12 +131,12 @@ main .card{
     cursor: pointer;
     transition: all 300ms ease;
 }
-.filtre .btnFiltre:hover{
+#filtre .btnFiltre:hover{
     background-color: #DEEBFF;
     transform: scale(1.05);
     border: none;
 }
-.filtre .btnFiltre i{
+#filtre .btnFiltre i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 50%;
@@ -145,28 +145,28 @@ main .card{
     margin: -4px auto;
     padding: 15px;
 }
-.formulaireDeRecherche .information{
+#formulaireDeRecherche #information{
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 10px;
     position: relative;
 }
-.information .fa-circle{
+#information .fa-circle{
     color: #F2F2F2;
     display: contents;
 }
-.information .fa-info{
+#information .fa-info{
     color: #0065FC;
 }
-.information .info{
+#information .info{
     color: #0065FC;
     display: flex;
     position: absolute;
     left: 13px;
 }
 /*containerHebergement*/
-.containerHebergement{
+#containerHebergement{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
@@ -174,7 +174,7 @@ main .card{
     height: 500px;
 }
 /*Hebergement*/
-.hebergement{
+#hebergement{
     background-color:#F2F2F2;
     display: flex;
     justify-content: space-between;
@@ -185,11 +185,11 @@ main .card{
     padding: 2% 4%;
     height: 100%;
 }
-.hebergement h3{
+#hebergement h3{
     width: 95%;
     /*! padding: 10px; */
 }
-.hebergement .card{
+#hebergement .card{
     /*! height: 175px; */
     /*! width: 225px; */
     background-color: white;
@@ -206,20 +206,20 @@ main .card{
 .card:hover{
     transform: scale(1.025);
 }
-.hebergement .card img{
+#hebergement .card img{
     height: 60%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.hebergement .card .cardDesc{
+#hebergement .card .cardDesc{
     display: flex;
     flex-direction: column;
     gap: 2px;
     margin-left: 10px;
     font-size: 85%;
 }
-.hebergement .card .etoile{
+#hebergement .card .etoile{
     color: #0065FC;
 }
 .card .etoile .gris{
@@ -294,17 +294,17 @@ main .card{
     gap: 0 1px;
 }
 /*activite*/
-.activite{
+#activite{
     display: flex;
     flex-direction: column;
     margin-top: 25px;
     width: 100%;
 }
-.activite h3{
+#activite h3{
     width: 100%;
     padding: 20px 0;
 }
-.activite .containerActivite{
+#activite .containerActivite{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -313,37 +313,37 @@ main .card{
     width: 100%;
     gap: 3%;
 }
-.activite .card{
+#activite .card{
     height: 100%;
     width: 100%;
     border-radius: 20px;
     cursor: pointer;
     grid-row: span 2;
 }
-.activite .card img{
+#activite .card img{
     height: 345px;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
-.activite .large{
+#activite .large{
     height: 200px;
     grid-row: span 1;
 }
-.activite .large img{
+#activite .large img{
     height: 145px;
 }
-.activite .small{
+#activite .small{
     height: 155px;
     grid-row: span 1;
 }
-.activite .small img{
+#activite .small img{
     height: 100px;
 }
-.activite .z{
+#activite #z{
     margin-top:45px;
 }
-.activite h4{
+#activite h4{
     border-radius: 0 0 20px 20px;
     padding: 4px 15px;
     display: flex;
@@ -366,35 +366,35 @@ footer div{
     gap: 10px 0;
 }
 /*Tablette de 768px a 992px*/ 
-@media only screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     /*main*/
     /*formulaireDeRecherche*/
-    .formulaireDeRecherche{
+    #formulaireDeRecherche{
         align-items: center;
         text-align: center;
     }
-    .formulaireDeRecherche .form a i{
+    #formulaireDeRecherche #form a i{
         display: block;
         padding: 2px;
     }
-    .formulaireDeRecherche .form a span{
+    #formulaireDeRecherche #form a span{
         display: none;
     }
-    .formulaireDeRecherche .form .rechercheFormBoutons p{
+    #formulaireDeRecherche #form #rechercheFormBoutons p{
         display: none;
     }
-    .formulaireDeRecherche .filtre{
+    #formulaireDeRecherche #filtre{
         width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .formulaireDeRecherche .filtre h2{
+    #formulaireDeRecherche #filtre h2{
         width: 100%;
         display: flex;
         justify-content: center;
     }
     /*containerHebergement*/
-    .containerHebergement {
+    #containerHebergement {
         flex-direction: column-reverse;
         justify-content: start;
         height: 800px;
@@ -403,10 +403,10 @@ footer div{
         gap: 2% 0;
     }
     /*hebergement*/
-    .hebergement{
+    #hebergement{
         width: 100%;
     }
-    .hebergement .card{
+    #hebergement .card{
         width: 48%;
         height: 25%;
     }
@@ -421,27 +421,27 @@ footer div{
         height: 35%;
     }
     /*activite*/
-    .activite{
+    #activite{
         margin-top: 60%;
     }
-    .activite .containerActivite{
+    #activite .containerActivite{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,1fr);
         height: auto;
         margin-top: 2%;
     }
-    .activite .card, .activite .large, .activite .small{
+    #activite .card, #activite .large, #activite .small{
         height: 175px;
         width: 100%;
         grid-row: span 1;
     }
-    .activite .card img, .activite .large img, .activite .small img{
+    #activite .card img, #activite .large img, #activite .small img{
         height: 125px;
     }
-    .activite .card h4, .activite .large h4, .activite .small h4{
+    #activite .card h4, #activite .large h4, #activite .small h4{
         height: 50px;
     }
-    .activite .z {
+    #activite #z {
         margin-top: 0;
     }
     /*footer*/
@@ -452,7 +452,7 @@ footer div{
 }
 
 /*Mobile max 767px*/ 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /*header*/
     header{
         margin: 0;
@@ -464,11 +464,6 @@ footer div{
     }
     header nav{
         width: 100%; 
-    }
-    header ul{
-        /*! justify-content: space-around; */
-        /*! height: 55px; */
-        /*! width: 100%; */
     }
     header ul li{
         min-width: 50%;
@@ -492,41 +487,41 @@ footer div{
     main{
         margin: 0;
     }
-    .formulaireDeRecherche, .hebergement, .populaire{
+    #formulaireDeRecherche, #hebergement, .populaire{
         padding: 10px;
         border-radius: 0;
     }
     /*formulaireDeRecherche*/
-    .formulaireDeRecherche {
+    #formulaireDeRecherche {
         align-items:flex-start;
         text-align:start;
         padding: 20px 30px;
     }
-    .formulaireDeRecherche .form{
+    #formulaireDeRecherche #form{
         width: 100%;
     }
-    .formulaireDeRecherche .form input{
+    #formulaireDeRecherche #form input{
         width: 75%;
     }
-    .formulaireDeRecherche .form a i{
+    #formulaireDeRecherche #form a i{
         display: block;
         padding: 2px;
     }
-    .formulaireDeRecherche .form a span{
+    #formulaireDeRecherche #form a span{
         display: none;
     }
-    .formulaireDeRecherche .filtre{
+    #formulaireDeRecherche #filtre{
         justify-content: start;
     }
-    .formulaireDeRecherche .filtre h2{
+    #formulaireDeRecherche #filtre h2{
         justify-content: start;
     }
     /*containerHebergement*/
-    .containerHebergement {
+    #containerHebergement {
         height: auto;
     }
     /*hebergement*/
-    .hebergement{
+    #hebergement{
         margin-top: 0;
         background-color: white;
         align-items: center;
@@ -537,18 +532,18 @@ footer div{
         gap: 1%;
         justify-content: initial;
     }
-    .hebergement h3{
+    #hebergement h3{
         width: 100%;
         padding: 10px 20px;
     }
-    .hebergement .card {
+    #hebergement .card {
         height: 14%;
         width: 95%;
     }
-    .hebergement .card img{
+    #hebergement .card img{
         height: 65%;
     }
-    .hebergement .card .cardDesc{
+    #hebergement .card .cardDesc{
         height: 35%;
         justify-content: space-evenly;
     }
@@ -559,8 +554,6 @@ footer div{
         gap: 3% 0;
         height: 650px;
     }
-    .populaire h3 {
-      }
     .populaire > i{
         width: 100%;
         padding: 0 20px;
@@ -572,14 +565,14 @@ footer div{
         width: 95%;
     }
     /*activite*/
-    .activite{
+    #activite{
         align-items: center;
     }
-    .activite{
+    #activite{
         padding: 0 30px;
-        margin-top: -17%;
+        margin-top: -65px;
     }
-    .activite .containerActivite{
+    #activite .containerActivite{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(6,1fr);
         height: auto;
@@ -589,6 +582,6 @@ footer div{
         flex-direction: column;
         gap: 40px;
         padding: 40px;
-        margin-top: 55%;
+        margin-top: 200px;
     }
 }
