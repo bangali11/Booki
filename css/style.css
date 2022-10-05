@@ -512,13 +512,21 @@ footer div{
     }
     #formulaireDeRecherche #filtre{
         justify-content: start;
+        gap: 15px 20px;
+    }
+    #formulaireDeRecherche #filtre .btnFiltre{
+        font-size: 87%;
     }
     #formulaireDeRecherche #filtre h2{
         justify-content: start;
     }
+    #formulaireDeRecherche #information {
+        margin-top: 15px;
+    }
     /*containerHebergement*/
     #containerHebergement {
         height: auto;
+        margin-top: 5px;
     }
     /*hebergement*/
     #hebergement{
