@@ -219,7 +219,7 @@ main .card{
     color: #F2F2F2;
 }
 /*populaire*/
-.populaire{
+#populaire{
     background-color:#F2F2F2;
     display: flex;
     flex-wrap: wrap;
@@ -230,23 +230,23 @@ main .card{
     height: 100%;
     padding: 2% 0;
 }
-.populaire #populaire-titre{
+#populaire #populaire-titre{
     width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.populaire h3{
+#populaire h3{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.populaire>i{
+#populaire>i{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.populaire .card{
+#populaire .card{
     height: 25%;
     width: 90%;
     background-color: white;
@@ -256,17 +256,17 @@ main .card{
     cursor: pointer;
     transition: all 200ms ease;
 }
-.populaire .card .article-img{
+#populaire .card .article-img{
     height: 100%;
     width: 45%;
 }
-.populaire .card img{
+#populaire .card img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 20px 0 0 20px;
 }
-.populaire .card .cardDesc{
+#populaire .card .cardDesc{
     padding: 2%;
     display: flex;
     flex-direction: column;
@@ -274,7 +274,7 @@ main .card{
     font-size: 85%;
     gap: 5%;
 }
-.populaire .card .etoile{
+#populaire .card .etoile{
     color: #0065FC;
     height: 100%;
     display: flex;
@@ -399,11 +399,11 @@ footer div{
         height: 25%;
     }
     /*populaire*/
-    .populaire {
+    #populaire {
         width: 100%;
         justify-content: space-evenly;
     }
-    .populaire .card {
+    #populaire .card {
         flex-wrap: wrap;
         width: 45%;
         height: 35%;
@@ -474,7 +474,7 @@ footer div{
     main{
         margin: 0;
     }
-    #formulaireDeRecherche, #hebergement, .populaire{
+    #formulaireDeRecherche, #hebergement, #populaire{
         padding: 10px;
         border-radius: 0;
     }
@@ -543,19 +543,19 @@ footer div{
         justify-content: space-evenly;
     }
     /*populaire*/
-    .populaire{
+    #populaire{
         flex-direction: column;
         align-items: center;
         gap: 3% 0;
         height: 650px;
     }
-    .populaire > i{
+    #populaire > i{
         width: 100%;
         padding: 0 20px;
         margin-top: -30px;
         margin-bottom: 30px;    
     }
-    .populaire .card {
+    #populaire .card {
         height: 28%;
         width: 95%;
     }
